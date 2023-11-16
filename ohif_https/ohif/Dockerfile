@@ -1,6 +1,6 @@
 ######################################################
 
-FROM node:16.15.0-slim as builder
+FROM node:latest as builder
 
 RUN apt-get update && apt-get install -y git
 
